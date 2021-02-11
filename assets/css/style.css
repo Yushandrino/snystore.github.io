@@ -9,8 +9,13 @@
 
 #caption-suns{
   text-align: left !important;
-  margin-left: 50px !important;
+  padding-left: 0px !important;
   font-size: 20px;
+}
+
+.list-dm-game a{
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #title-store{
@@ -31,8 +36,8 @@
   color: #fff;
   text-align: center !important;
   font-weight: 800;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .txt-list-game{
@@ -40,8 +45,8 @@
   color: #fff;
   text-align: center !important;
   font-weight: 400;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #custom-collapse ul li{
@@ -87,19 +92,19 @@
 
 
 #caption-game-topup{
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 22px;
   font-weight: 600;
 }
 
 #dm-game{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   font-weight: 800;
   font-size: 18px;
 }
@@ -558,10 +563,10 @@ a,
     font-size: 18px;
   }
   #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   .mt-sm-0 {
     margin-top: 0 !important;
@@ -621,10 +626,10 @@ a,
 
 @media only screen and (max-width: 767px) {
   #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .mt-xs-0 {
@@ -2585,11 +2590,12 @@ Google map
 
 @media (min-width: 768px) {
   #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
+
   .comment .comment {
     margin-left: 75px;
   }
@@ -2827,11 +2833,12 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
   #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
+
   .navbar-transparent {
     background: transparent;
     padding-bottom: 15px;
@@ -2872,11 +2879,12 @@ Google map
 
 @media (max-width: 1200px) {
   #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
+
   /* Features */
   .alt-features-item {
     margin: 20px 0 0;
@@ -2884,12 +2892,13 @@ Google map
 }
 
 @media (max-width: 1050px) {
-  #dm-game{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+ #dm-game{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
+
   /* Navbar */
   .navbar-custom {
     letter-spacing: 1px;
